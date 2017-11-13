@@ -3,6 +3,7 @@
 	<head>
  		<?php wp_head();?>
 		<link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_uri();?>">
+		<link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
 		<title><?php bloginfo('name');?><?php bloginfo('description'); ?></title>
 	</head>
 	<body>
