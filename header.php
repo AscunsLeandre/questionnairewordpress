@@ -2,7 +2,8 @@
 <html>
 	<head>
  		<?php wp_head();?>
-		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_uri();?>">
+		<title><?php bloginfo('name');?><?php bloginfo('description'); ?></title>
 	</head>
 	<body>
 	<header>

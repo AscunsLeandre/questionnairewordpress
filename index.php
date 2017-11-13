@@ -1,5 +1,9 @@
 <?php get_header(); ?>
     <h1>Hello World ca va OUII BIEN ca va </h1>
+    <aside class="">
+      <?php get_sidebar(); ?>
+
+    </aside>
     <?php while (have_posts()):the_post();?>
       <article>
         <header>
