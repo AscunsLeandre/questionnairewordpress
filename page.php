@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-  
+
     <?php the_post;?>
       <article>
         <header>
@@ -7,9 +7,6 @@
         </header>
         <div>
           <?php the_content(); ?>
-          <?php if(comments_open() || get_comments_number()){
-            comments_template();
-          } ?>
         </div>
       </article>
 <?php get_footer(); ?>
