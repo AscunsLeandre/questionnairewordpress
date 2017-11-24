@@ -9,6 +9,7 @@
         </header>
         <div>
           <?php the_content(); ?>
+          <?php the_date(); ?>
         </div>
       </article>
     <?php endwhile; ?>
