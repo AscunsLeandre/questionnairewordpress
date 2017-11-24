@@ -6,10 +6,10 @@
       <article>
         <header>
           <h2><a href="<?php the_permalink();?>"><?php the_title(); ?></a></h2>
+          <?php the_date(); ?>
         </header>
         <div>
           <?php the_content(); ?>
-          <?php the_date(); ?>
         </div>
       </article>
     <?php endwhile; ?>
